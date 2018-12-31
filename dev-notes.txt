@@ -1,0 +1,6 @@
+cd Dev/React/what-should-i-do
+live-server public
+
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+React dom events (SyntheticEvent) -> Supported events
